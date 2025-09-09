@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Astrofísica</title>
+    <title>Pintinho Amarelinho</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
@@ -13,78 +12,78 @@
 </head>
 
 <body>
-    <header class=" p-5">
-
+    <!-- Cabeçalho -->
+    <header class="p-4">
         <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/logo.png" class="nav-img " loading="lazy" alt="Logo Astrofísica">
-            <ul class="nav mt-5">
+            <img src="img/logo-pintinho.png" class="nav-img" alt="Logo Pintinho Amarelinho" width="120" loading="lazy">
+            <ul class="nav mt-3">
                 <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
             </ul>
 
+            <!-- Botões de acessibilidade -->
             <div id="acessibilidade" class="menu-acessibilidade">
-                <button id="botao-acessibilidade" class="btn btn-primary rotacao-botao fw-bold">Acessibilidade</button>
+                <button id="botao-acessibilidade" class="btn btn-warning rotacao-botao fw-bold">Acessibilidade</button>
                 <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista ">
-                    <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
-                    <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+                    <button id="aumentar-fonte" class="btn">A +</button>
+                    <button id="diminuir-fonte" class="btn">A -</button>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- Conteúdo principal -->
     <main class="container my-5">
 
-        <!-- Seção inicial -->
+        <!-- Início -->
         <section id="inicio" class="my-5">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-black fst-italic fw-bold">Bem-vindo ao universo da</h1>
-                    <img src="img/logo-2.jpg" class="mb-3" width="563" height="278" loading="lazy" alt="Logo Astrofísica">
-                    <a href="#astrofisica" class="btn btn-primary btn-lg botao-inicio fw-semibold">Explorar!</a>
+                    <h1 class="display-4 fst-italic fw-bold">Boas-vindas ao mundo do</h1>
+                    <img src="img/titulo-pintinho.png" class="mb-3" width="400" alt="Título Pintinho Amarelinho">
+                    <a href="#sobre" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
                 </div>
-                <img src="img/galáxia.jpg"
-                    alt="Imagem da Via Láctea vista do espaço"
-                    title="Via Láctea - NASA / Domínio Público" class="img-fluid img-inicio">
+                <img src="img/pintinho.png" alt="Ilustração de um pintinho amarelinho fofo"
+                    title="Pintinho Amarelinho" class="img-fluid img-inicio">
             </div>
         </section>
 
-        <!-- Seção explicativa -->
-        <section id="astrofisica" class="my-5 pt-6">
-            <div class="container d-flex align-items-center ">
+        <!-- Sobre -->
+        <section id="sobre" class="my-5">
+            <div class="container d-flex align-items-center">
                 <div class="col-4 d-flex justify-content-center">
-                    <img src="img/buraco negro.jpg" class="rounded-pill" alt="Representação de um buraco negro" width="273" height="331" loading="lazy">
+                    <img src="img/pintinho-ovo.png" class="rounded-pill" alt="Pintinho saindo do ovo" width="250"
+                        height="250" loading="lazy">
                 </div>
-                <div class="col-5">
-                    <h2>O que é a Astrofísica?</h2>
-                    <p class="p-2">A Astrofísica é a área da ciência que estuda os corpos celestes, como estrelas, planetas, buracos negros e galáxias, utilizando os princípios da física. Ela busca compreender a origem, a evolução e as propriedades do universo, revelando mistérios como a formação das estrelas e a expansão cósmica. Fonte: NASA / ESA.</p>
+                <div class="col-7">
+                    <h2>Quem é o Pintinho Amarelinho?</h2>
+                    <p class="p-2">O Pintinho Amarelinho é um dos personagens infantis mais queridos, famoso pela música
+                        que encanta gerações. Ele representa alegria, inocência e diversão, trazendo sempre um sorriso
+                        no rosto das crianças. 🐥💛</p>
                 </div>
             </div>
         </section>
 
         <!-- Galeria -->
-        <section id="galeria">
-            <h2 class="text-center pt-5">Galeria do Cosmos</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
-
+        <section id="galeria" class="my-5">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
                 <div class="row justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/nebulosa.jpg"
-                            class="img-fluid rounded-5" loading="lazy" alt="Imagem de uma nebulosa colorida">
+                        <img src="img/pintinho-1.png" class="img-fluid" alt="Pintinho brincando" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/estrelas.jpg" class="img-fluid rounded-5"
-                            loading="lazy" alt="Imagem de várias estrelas no céu">
+                        <img src="img/pintinho-2.png" class="img-fluid" alt="Pintinho sorrindo" loading="lazy">
                     </div>
                 </div>
-                <div class="row mt-4  justify-content-md-center">
+                <div class="row mt-4 justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/exoplaneta.jpg" class="img-fluid rounded-5"
-                            loading="lazy" alt="Representação artística de um exoplaneta">
+                        <img src="img/pintinho-3.png" class="img-fluid" alt="Pintinho cantando" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/supernova.jpg"
-                            class="img-fluid rounded-5" loading="lazy" alt="Explosão de supernova iluminando o espaço">
+                        <img src="img/pintinho-4.png" class="img-fluid" alt="Pintinho e amigos" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -112,8 +111,7 @@
                                 placeholder="Escreva sua mensagem"></textarea>
                         </div>
                         <div class="d-grid gap-2">
-                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
-                                mensagem</button>
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar mensagem</button>
                         </div>
                     </form>
                 </div>
@@ -121,16 +119,16 @@
         </section>
     </main>
 
+    <!-- Rodapé -->
     <footer class="text-center p-3 fst-italic">
         <p>Acesse nossas redes:</p>
         <i class="bi bi-whatsapp"></i>
         <i class="bi bi-instagram"></i>
         <i class="bi bi-tiktok"></i>
-        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+        <p class="mt-3">Desenvolvido como projeto fictício inspirado no Pintinho Amarelinho 🐥.</p>
     </footer>
 
     <script src="script.js"></script>
-
 </body>
 
 </html>
